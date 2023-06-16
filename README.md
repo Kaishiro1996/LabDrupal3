@@ -1,5 +1,9 @@
 # A Drupal via DDEV template on Gitpod
 
+##Integrantes
+Marcelo Rojas 
+Nicole Brenes 
+
 This is a [Drupal via DDEV](https://github.com/drud/ddev) template configured for ephemeral development environments on [Gitpod](https://www.gitpod.io/).
 
 ## Next Steps
