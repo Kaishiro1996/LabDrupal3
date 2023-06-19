@@ -1,0 +1,42 @@
+.title_card_uwu{
+    text-transform: uppercase;
+    color: white;
+    font-size: 1em;
+}
+.description_card_uwu{
+    color:white
+}
+
+.btn_card_uwu{
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+    border: white 2px solid;
+}
+
+.flex_card_uwu{
+    display: inline-flex;
+    flex-direction: row;
+}
+.column1_card_uwu{
+    padding: 2em;
+}
+.btn_cont_card_uwu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 1em;
+    margin: 2em;
+}
+
+.triangulo_card_uwu {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent; 
+    position: absolute;
+    right: 10%;
+}
+

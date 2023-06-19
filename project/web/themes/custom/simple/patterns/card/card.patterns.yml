@@ -1,0 +1,35 @@
+card:
+  label: 'Card'
+  description: 'Card'
+  fields:
+    title:
+      type: string
+      label: title
+      description: title of the card
+      preview: 'title'
+    description:
+      type: string
+      label: description
+      description: description of the card
+      preview: 'description'
+    url:
+      type: string
+      label: URL
+      description: Link
+      preview: 'https://google.com'
+    Btntext:
+      type: string
+      label: URL
+      description: Link
+      preview: 'ver mas'
+    color:
+      type: string
+      label: Color
+      description: Background color
+      preview: '#15478A'    
+  libraries:
+    -
+      card:
+        css:
+          component:
+            css/styles.css: {}
