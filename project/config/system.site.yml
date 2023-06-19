@@ -1,9 +1,9 @@
 _core:
   default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
 langcode: en
-uuid: 0c4cd356-b6af-4d3e-9aa3-2504a8ed6e6c
+uuid: 85cf2b84-b728-479a-a8bc-3f6a6a058304
 name: Lab3Drupal
-mail: chelo@correo.com
+mail: correo@correo.com
 slogan: ''
 page:
   403: ''

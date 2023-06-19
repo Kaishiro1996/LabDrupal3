@@ -1,0 +1,92 @@
+uuid: fa1e1d02-2aa2-4606-ba70-389de7d65881
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.basic_2_columns.field_paragraph1
+    - field.field.node.basic_2_columns.field_paragraph2
+    - node.type.basic_2_columns
+  module:
+    - entity_reference_revisions
+    - layout_builder
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          d7374f0c-bede-42e6-9eb4-e422a1d3257d:
+            uuid: d7374f0c-bede-42e6-9eb4-e422a1d3257d
+            region: first
+            configuration:
+              id: 'field_block:node:basic_2_columns:field_paragraph1'
+              label: paragraph1
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_revisions_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          65c06f48-4a09-488c-93b5-af37d1eab2a1:
+            uuid: 65c06f48-4a09-488c-93b5-af37d1eab2a1
+            region: second
+            configuration:
+              id: 'field_block:node:basic_2_columns:field_paragraph2'
+              label: paragraph2
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: entity_reference_revisions_entity_view
+                label: above
+                settings:
+                  view_mode: default
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: node.basic_2_columns.default
+targetEntityType: node
+bundle: basic_2_columns
+mode: default
+content:
+  field_paragraph1:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_paragraph2:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

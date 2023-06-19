@@ -1,10 +1,9 @@
-uuid: 4a4db72c-60c2-4362-accd-1ca091a69380
+uuid: ecfa0dcd-1282-4b7a-9668-dad5628b5c66
 langcode: en
 status: true
 dependencies:
   config:
     - node.type.article
-    - node.type.page
     - taxonomy.vocabulary.tags
   module:
     - comment
@@ -31,16 +30,12 @@ permissions:
   - 'access tour'
   - 'administer url aliases'
   - 'create article content'
-  - 'create page content'
   - 'create terms in tags'
   - 'create url aliases'
   - 'delete article revisions'
   - 'delete own article content'
-  - 'delete own page content'
-  - 'delete page revisions'
   - 'edit own article content'
   - 'edit own comments'
-  - 'edit own page content'
   - 'edit terms in tags'
   - 'revert all revisions'
   - 'view all revisions'

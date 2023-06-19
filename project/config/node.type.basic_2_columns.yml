@@ -1,0 +1,18 @@
+uuid: 3a870780-ffca-4983-a842-1926a17836a9
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Basic 2 Columns'
+type: basic_2_columns
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

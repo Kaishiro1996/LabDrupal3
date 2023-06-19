@@ -1,0 +1,24 @@
+uuid: c5c61870-107e-43e6-a143-2d68fba024be
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.basic_2_columns.field_paragraph1
+    - field.field.node.basic_2_columns.field_paragraph2
+    - node.type.basic_2_columns
+  module:
+    - user
+id: node.basic_2_columns.teaser
+targetEntityType: node
+bundle: basic_2_columns
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_paragraph1: true
+  field_paragraph2: true

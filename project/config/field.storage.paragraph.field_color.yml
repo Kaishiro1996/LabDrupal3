@@ -1,0 +1,20 @@
+uuid: e5de808a-83ce-4817-af48-6dae5e3d76dc
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_color
+field_name: field_color
+entity_type: paragraph
+type: text
+settings:
+  max_length: 10
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
